@@ -1,10 +1,11 @@
 ## flyo Dark theme landing page
 
-![Project](img/../images/NavSectionScreenShot.png)
+![Project](images/NavSectionScreenShot.png)
 
-## Mobile View of the flyo Dark theme landing page
 
-![Project]()
+## Mobile View 
+
+![Project](images/MobileScreenshot.png)
 
 ### My process
  
@@ -121,18 +122,18 @@ footer {
 
 ## Useful resources
 
-- [GoogleFont](https://www.googlefont.com) - This helped me for achieveing the accurate font family [Raleway](https://fonts.google.com/specimen/Raleway) [Open Sans](https://fonts.google.com/specimen/Open+Sans)and font-weight for this challenge as it was given.
+- [GoogleFont](https://www.googlefont.com) - This helped me for achieveing the accurate font family [Raleway](https://fonts.google.com/specimen/Raleway) and [Open Sans](https://fonts.google.com/specimen/Open+Sans) font-weight for this challenge from the Guides provided.
 
 - [CSS-gradient-genrator-factory](http://www.css3factory.com/linear-gradients/) -This was an amazing tools that literally helped in achieving colour gradient for the button.
 
+- [fontawesome](https://www.fontawesome.com) This has been helpful on web page, very easy and user friendly whenever social media icon is needed.
 
 ## Author
 
-- Frontend Mentor [@yourusername](https://www.frontendmentor.io/profile/Brymmobaggins)
-- Twitter [@Brymmobaggins](https://www.twitter.com/Brymmobaggins)
+- Frontend Mentor[@Brymmobaggins](https://www.frontendmentor.io/profile/Brymmobaggins)
+- Twitter[@Brymmobaggins](https://www.twitter.com/Brymmobaggins)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
-I  will like give sshout out to (web dev simplified)[] for providing programming contents and motivational on youtube and [chao charles](https://twitter.com/ChaooCharles?lang=en) on tips and tricks for CSS grid and styling. I also [SideHustleNigeria](sidehustleNG.com)community for this internship programme to hone my skills as frontend developer.
+I  will like give shout out to [web dev simplified](https://twitter.com/DevSimplified) for providing programming and web developement resources on youtube and [chao charles](https://twitter.com/ChaooCharles?lang=en) on tips and tricks for CSS grid and styling. I also wanna a big shout out to [SideHustleNigeria](https://internship.sidehustle.ng/index.php) community for this internship programme to hone my skills as frontend developer.
