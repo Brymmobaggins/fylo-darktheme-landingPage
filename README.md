@@ -1,11 +1,16 @@
 ## flyo Dark theme landing page
-![]()
+
+[Project](img/../images/NavSectionScreenShot.png)
+
+## Mobile View of the flyo Dark theme landing page
+
+[!Project](https://github.com/Brymmobaggins/fylo-darktheme-landingPage/blob/master/images/MobileScreenshot.png)
 
 ### My process
  
 I downloaded the zip file of this challenge which consist of folders and files, after extracted it and move it to my code editor [vscode]. I read through the instructions and guide , followed the step which gives me few comprehensive of the layout mobile and destop respectively.
 
- I did  few modification in the index file that **index.html**  came with the assest and started the coding Journey.
+ I did few modification in the index file **index.html** that came with the assest and started the coding Journey.
 
 ***Me on the index.html***  i created a `<nav></nav>` tag with and gave it class of `class="nav-bar"` which stand as parent for the nav and header section, i was a bit skeptical inbtw `class` or `id`  but i decided sit on `class`. Going forward,  i created children that hold the logo and navigation items. 
 
@@ -80,7 +85,7 @@ background-image: -webkit-linear-gradient(
 
  Moving to the next section `<article class="features">.....</article>` had tons of elememt and children, i created the first and copy paste the sub children to save my precious time. layout consist four items sitting next to each other. I displayed the children with value of `grid` and supported it with `grid-template-columns` with value `: 1fr 1fr`; to give the section 1 fraction per row of available space on the section.
 
- Styling the `<footer></footer>` section was highly confusing and complex. I was able to achieve it with the help of `grid-template` properpty. 
+ Styling the `<footer></footer>` section was highly confusing and complex. I was able to achieve it with the help of `grid-template` property. 
 
 ### Links
 
@@ -95,10 +100,11 @@ background-image: -webkit-linear-gradient(
 
 ### What I learned
 
- I learned how to use css property `grid-template` and the values needed for styling in **footer** section. I also applied it on the mobile view that makes it well-aligned.
+ I learned how to use css property `grid-template` and the values needed for styling in **footer** section. I also applied it on the mobile view that makes it > well-aligned.
 
 
 ```
+
 footer {
   background-color: var(--footer-background);
   display: grid;
@@ -108,15 +114,16 @@ footer {
   column-gap: 3.75rem;
   grid-template-areas:
     "footerLogo . . . ."
-    "footerlocation footerContact footer-link second social-media";
-
+    "footerlocation footerContact footer-link second social-media"
 }
+
 ```
-### Useful resources
 
-- [GoogleFont](https://www.googlefont.com) - This helped me for achieving the accurate font family [Raleway](https://fonts.google.com/specimen/Raleway) [Open Sans](https://fonts.google.com/specimen/Open+Sans)and font-weight for this challenge as it is instructed to be understand. 
+## Useful resources
 
-- [CSS-gradient-genrator-factory](http://www.css3factory.com/linear-gradients/) -This is amazing tools that literally helped in achieving colour gradient for the button.
+- [GoogleFont](https://www.googlefont.com) - This helped me for achieveing the accurate font family [Raleway](https://fonts.google.com/specimen/Raleway) [Open Sans](https://fonts.google.com/specimen/Open+Sans)and font-weight for this challenge as it was given.
+
+- [CSS-gradient-genrator-factory](http://www.css3factory.com/linear-gradients/) -This was an amazing tools that literally helped in achieving colour gradient for the button.
 
 
 ## Author
@@ -128,4 +135,4 @@ footer {
 
 ## Acknowledgments
 
-I  wil like give a shout out to (web dev simplified)[] from the contect providing on youtube and chao charles on 
+I  will like give sshout out to (web dev simplified)[] for providing programming contents and motivational on youtube and [chao charles](https://twitter.com/ChaooCharles?lang=en) on tips and tricks for CSS grid and styling. I also [SideHustleNigeria](sidehustleNG.com)community for this internship programme to hone my skills as frontend developer.
