@@ -27,7 +27,9 @@ I downloaded the zip file of this challenge which consist of folders and files, 
     </nav>
 ```
 
-Secondly, I created a cascading file **style.css** for styling and link it together `<link rel="stylesheet" href="style.css" />` I navigate [Googlefont] on my brower as it was instructed on the project guide and i searched for [Raleway] and [Opensans]. fortunately, i found them and i embedded the fonts together, copied the link and paste it inside my `<head></head>` tag of my html file. After insert the link i moved to back the **styles.css** file, i created a global styling and color variables because it pretty simple to use and i believed it is advanced way of writing css.
+Secondly, I created a cascading file **style.css** for styling and linked to the html file ***index.html** `<link rel="stylesheet" href="style.css" />` I navigates to [Googlefont](https://www.googlefont.com) on my brower as it was instructed on the project guide and i searched for [Raleway](https://fonts.google.com/specimen/Raleway) and [Opensans](https://fonts.google.com/specimen/Open+Sans). 
+
+Fortunately, i found them and i embedded the fonts together, copied the link and pasted it inside my `<head></head>` tag of my html file. After insert the link i moved to back the **styles.css** file, i created a global styling and color variables, it pretty simple to use for me and i believed it is advanced way of writing css.
 
 
 ```
@@ -51,21 +53,7 @@ Secondly, I created a cascading file **style.css** for styling and link it toget
   /* border-radius: ; */
   --radius: 5px;
 }
-main {
-  position: relative;
-  padding-bottom: 150px;
-}
-html,
-body {
-  color: var(--White);
-  background-color: var(--main-background);
-  font-size: 14px;
-  font-family: var(--body-font);
-  font-weight: 400;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-}
-nav,
+gitnav,
 h2,
 h3,
 .btn {
@@ -83,8 +71,8 @@ ul,
 li {
   list-style: none;
 }
-
 ```
+
 ### Screenshot
 
 ![](./screenshot.jpg)
