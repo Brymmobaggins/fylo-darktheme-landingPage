@@ -1,10 +1,10 @@
 ## flyo Dark theme landing page
 
-[Project](img/../images/NavSectionScreenShot.png)
+![Project](img/../images/NavSectionScreenShot.png)
 
 ## Mobile View of the flyo Dark theme landing page
 
-[!Project](https://github.com/Brymmobaggins/fylo-darktheme-landingPage/blob/master/images/MobileScreenshot.png)
+![Project]()
 
 ### My process
  
