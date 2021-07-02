@@ -280,7 +280,11 @@ footer {
 }
 .social-media i {
   font-size: 1.875rem;
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
+}
+.fa-facebook {
+  /* border: 1px solid #fff; */
+  border-radius: 50px;
 }
 /* Media query for responsiveness  all types of screens and print */
 @media (max-width: 375px) {
@@ -293,7 +297,7 @@ footer {
   .logo img {
     height: 1.5rem;
     width: 5rem;
-    margin-right: 1.563rem;
+    margin-right: 1.6rem;
   }
 
   .nav-content ul li {
@@ -317,8 +321,8 @@ footer {
     width: 250px;
   }
   .btn {
-    padding: 0.938rem 0;
-    width: 250px;
+    padding: 10px 0;
+    width: 200px;
   }
   .features {
     display: grid;
@@ -327,5 +331,49 @@ footer {
     /* margin: 100px 0px; */
     padding: 0px 30px;
   }
-  
+  .productive {
+    flex-direction: column;
+    padding: 0px 1.6rem;
+  }
+  .prodImg img {
+    height: 200px;
+  }
+  .testimonial {
+    grid-template-columns: 1fr;
+    grid-gap: 1.5rem;
+    padding: 7.5rem 1.25rem;
+  }
+  .formInput {
+    padding: 40px 25px;
+    /* bottom: -175px; */
+  }
+  form {
+    flex-direction: column;
+  }
+  input[type="email"] {
+    width: 250px;
+  }
+  input[type="submit"] {
+    width: 250px;
+    margin: 25px;
+    /* display: inline-block; */
+  }
+  footer {
+    grid-template-columns: 1fr;
+    padding: 280px 27px 45px 27px;
+    column-gap: 0;
+    row-gap: 20px;
+    grid-template-areas:
+      "footerLogo"
+      "footerlocation" "footerContact" "footer-link" "second" "social-media";
+  }
+  .social-media {
+    display: flex;
+    /* flex-direction: row; */
+    text-align: center;
+    justify-content: center;
+  }
+  .fab {
+    margin-right: 10px;
+  }
 }
