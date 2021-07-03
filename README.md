@@ -1,9 +1,9 @@
-## flyo Dark theme landing page
+## flyo Dark theme landing page preview
 
 ![Project](images/NavSectionScreenShot.png)
 
 
-## Mobile View 
+## Mobile Preview
 
 ![Project](images/MobileScreenshot.png)
 
@@ -74,7 +74,7 @@ li {
 }
 ```
 
-The layout consist of four sections, i created a custom class for each of them for easy styling and specification. on the first section `<article class="getStarted">....</article>` was pretty simple and as well as the styling, I had challenges specificing the background of the button, the given was shade of two colors that linear to each other proper `linear-gradient` value but chrome does not support the value from the documemtation i read. Whilst searching, i came across [CSS-gradient-genrator-factory](http://www.css3factory.com/linear-gradients/) that gave the right property from my custom color variables that is supported. that is  `-webkit-linear-gradient`. 
+The layout consist of four sections, i created a custom class for each of them for easy styling and specification. on the first section `<article class="getStarted">....</article>` was pretty simple and as well as the styling, I had challenges specificing the background of the button, the given value shade of multiple colors that linear to each other, `linear-gradient` was the value but chrome does not support the value from the documemtation i read. Whilst searching, i came across [CSS-gradient-genrator-factory](http://www.css3factory.com/linear-gradients/) that gave the right property from my custom color variables that is supported. that is  `-webkit-linear-gradient`. It save my time and was very glad using it. 
 
 ```
 background-image: -webkit-linear-gradient(
@@ -84,7 +84,7 @@ background-image: -webkit-linear-gradient(
   );
 ```
 
- Moving to the next section `<article class="features">.....</article>` had tons of elememt and children, i created the first and copy paste the sub children to save my precious time. layout consist four items sitting next to each other. I displayed the children with value of `grid` and supported it with `grid-template-columns` with value `: 1fr 1fr`; to give the section 1 fraction per row of available space on the section.
+ Moving to the next section `<article class="features">.....</article>` had tons of elememt and children. I created the first, copied and pasted the sub children to save my precious time. layout consist four items sitting next to each other. I displayed the children with value of `grid` and supported it with `grid-template-columns` with value `: 1fr 1fr`; to give the section 1 fraction per row of available space on the section.
 
  Styling the `<footer></footer>` section was highly confusing and complex. I was able to achieve it with the help of `grid-template` property. 
 
@@ -136,4 +136,4 @@ footer {
 
 ## Acknowledgments
 
-I  will like give shout out to [web dev simplified](https://twitter.com/DevSimplified) for providing programming and web developement resources on youtube and [chao charles](https://twitter.com/ChaooCharles?lang=en) on tips and tricks for CSS grid and styling. I also wanna a big shout out to [SideHustleNigeria](https://internship.sidehustle.ng/index.php) community for this internship programme to hone my skills as frontend developer.
+I  will like give shout out to [web dev simplified](https://twitter.com/DevSimplified) for providing programming and web developement resources on youtube and [chao charles](https://twitter.com/ChaooCharles?lang=en) on tips and tricks for CSS grid and styling. I also wanna a big shout out to [SideHustleNigeria](https://internship.sidehustle.ng/index.php) community for this internship programme to hone my skills as a frontend developer.
