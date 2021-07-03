@@ -136,4 +136,4 @@ footer {
 
 ## Acknowledgments
 
-I  will like give shout out to [web dev simplified](https://twitter.com/DevSimplified) for providing programming and web developement resources on youtube and [chao charles](https://twitter.com/ChaooCharles?lang=en) on tips and tricks for CSS grid and styling. I also wanna a big shout out to [SideHustleNigeria](https://internship.sidehustle.ng/index.php) community for this internship programme to hone my skills as a frontend developer.
+I will like give a big shout out to [SideHustleNigeria](https://internship.sidehustle.ng/index.php) community for this internship programme to hone my skills as a frontend developer and aslo [web dev simplified](https://twitter.com/DevSimplified) for providing programming and web developement resources on youtube and [chao charles](https://twitter.com/ChaooCharles?lang=en) on tips and tricks for CSS grid and styling. Thank you all, i am enternally grateful.
